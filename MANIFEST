@@ -19,6 +19,7 @@ MANIFEST			This list of files
 META.yml
 README
 share/dnipropetrovsk-map.xml
+SIGNATURE
 t/Map-Tube-Dnipropetrovsk/00-use.t
 t/Map-Tube-Dnipropetrovsk/01-version.t
 t/Map-Tube-Dnipropetrovsk/02-pod_coverage.t

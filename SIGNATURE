@@ -1,0 +1,55 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 c97488d0393afcf59286813f36c628796a042a0e Changes
+SHA1 41ae4c2d2c9ca83dc55a9df0dd7167010270db4b Dnipropetrovsk.pm
+SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
+SHA1 62ea8161d1cc7e68c6aa5a240b42a571037b8c51 LICENSE.bsd
+SHA1 574a4631b36081b99c8428906a89b96b79526efe MANIFEST
+SHA1 92ceaeada92baceb81a50db77325241929cfe48b META.yml
+SHA1 7cc2a9c6eb6c804318ae3868c3a8c105f61d8c13 Makefile.PL
+SHA1 32c9b5a1e029dee48e032b4a95b212aca2d6b3e9 README
+SHA1 4317b55e8c01011e2d26c4e19ff704abcd9d68e7 examples/ex1.pl
+SHA1 19ed4a86c314839b7ff7ce8394c5658670686d3d examples/ex2.pl
+SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
+SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
+SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
+SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
+SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
+SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 3283fb3bb58e10c29029567e63b805cdeb66af10 inc/Module/Install/Share.pm
+SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
+SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 5039f63a4cd313c1fd13bc548c0ed962253c0906 share/dnipropetrovsk-map.xml
+SHA1 c401fbda2200b964eafdb6f6ff041ede87f7f6d7 t/Map-Tube-Dnipropetrovsk/00-use.t
+SHA1 1795688f248be957d88e9b215c3690f988ac43f7 t/Map-Tube-Dnipropetrovsk/01-version.t
+SHA1 aa2a160bf75da644c0b14dee8ce2d5fe327b8db5 t/Map-Tube-Dnipropetrovsk/02-pod_coverage.t
+SHA1 763204a6e7f5a636098869364e900345ff0a1947 t/Map-Tube-Dnipropetrovsk/03-pod.t
+SHA1 6c5f5058ba75c410a16167e4e312ea5836ce977e t/Map-Tube-Dnipropetrovsk/04-get_shortest_route.t
+SHA1 1a8402fd9735b1ae8756f46353b562c2291937a1 t/Map-Tube-Dnipropetrovsk/05-name.t
+SHA1 a80b116d7a8b78b6dd03c397e688870af6d2d759 t/Map-Tube-Dnipropetrovsk/06-xml.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJUlPYFAAoJEAwa+cf4dLBab6EH/07MZbAsHIo5YM+f0MkscISM
+sz5GCFJw0rVHqPMW7MIkzdDRkMDnzC4/cxo16FooOUzSpY2u7MMFvcnbBNKOzArk
+y0jMQSE3aELbs6TFhObx0UhCOKNUq1AdB3sVZVhb/ke5xtmu6uh/9bjijRQD4MK0
+8H7b8TFOqLGcN5gPOFN1m4jjUH5DkwRQ9A+1Fjr0nskOEQfaKPOlieBMpXWN9uLF
+FaL9fNJThaKnlX0G+HyD62f/z9CLLPQIDw5larqVyOClXWa93g2OuRvcIxQMl8vi
+RcLKejsZ7DLicFH7MQxyz3zKYrPOJL0DWye9vbj6is8nbMP9LtXnKy4kMA1lKpI=
+=NTpK
+-----END PGP SIGNATURE-----
