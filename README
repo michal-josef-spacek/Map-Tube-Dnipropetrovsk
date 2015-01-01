@@ -98,6 +98,35 @@ EXAMPLE2
      # Output like:
      # XML file: .*/dnipropetrovsk-map.xml
 
+EXAMPLE3
+     # Pragmas.
+     use strict;
+     use warnings;
+
+     # Modules.
+     use Map::Tube::GraphViz;
+     use Map::Tube::GraphViz::Utils qw(node_color_without_label);
+     use Map::Tube::Dnipropetrovsk;
+
+     # Object.
+     my $obj = Map::Tube::Dnipropetrovsk->new;
+
+     # GraphViz object.
+     my $g = Map::Tube::GraphViz->new(
+             'callback_node' => \&node_color_without_label,
+             'driver' => 'neato',
+             'tube' => $obj,
+     );
+
+     # Get graph to file.
+     $g->graph('Dnipropetrovsk.png');
+
+     # Print file.
+     system "ls -l Dnipropetrovsk.png";
+
+     # Output like:
+     # TODO
+
 DEPENDENCIES
     File::Share, Map::Tube, Moo, namespace::clean.
 
