@@ -1,5 +1,6 @@
 0.02
  - Add get_lines() method to doc.
+ - Add get_stations() method to doc.
  - Update copyright years to 2015.
 
 0.01 2014-12-20T05:07:25+01:00
