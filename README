@@ -125,7 +125,7 @@ EXAMPLE3
      system "ls -l Dnipropetrovsk.png";
 
      # Output like:
-     # TODO
+     # -rw-r--r-- 1 skim skim 16544 Jan  1 11:17 Dnipropetrovsk.png
 
 DEPENDENCIES
     File::Share, Map::Tube, Moo, namespace::clean.
