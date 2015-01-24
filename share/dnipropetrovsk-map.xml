@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tube name="Дніпропетровський метрополітен">
   <!-- https://uk.wikipedia.org/wiki/Дніпропетровський_метрополітен -->
+  <lines>
+    <line id="1" name="Центрально-Заводська лінія" color="red"/>
+  </lines>
   <stations>
     <station id="1-01" name="Комунарівська" line="Центрально-Заводська лінія" link="1-02"/>
     <station id="1-02" name="Проспект Свободи" line="Центрально-Заводська лінія" link="1-01,1-03"/>
