@@ -4,6 +4,7 @@
  - Add Map::Tube::Plugin::Graph to SEE ALSO section in doc.
  - Add Map::Tube::Singapore to SEE ALSO section in doc.
  - Add lines to XML document.
+ - Remove obsolete code from EXAMPLE2 section in doc.
  - Update README file.
 
 0.02 2015-01-02T05:08:09+01:00

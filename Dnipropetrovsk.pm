@@ -129,7 +129,6 @@ For more information about Dnipropetrovsk Map, click L<here|https://en.wikipedia
 
  # Pragmas.
  use strict;
- use utf8;
  use warnings;
 
  # Modules.
