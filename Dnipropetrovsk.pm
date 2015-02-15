@@ -163,7 +163,6 @@ For more information about Dnipropetrovsk Map, click L<here|https://en.wikipedia
  # GraphViz object.
  my $g = Map::Tube::GraphViz->new(
          'callback_node' => \&node_color_without_label,
-         'driver' => 'neato',
          'tube' => $obj,
  );
 

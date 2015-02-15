@@ -15,7 +15,6 @@ my $obj = Map::Tube::Dnipropetrovsk->new;
 # GraphViz object.
 my $g = Map::Tube::GraphViz->new(
         'callback_node' => \&node_color_without_label,
-        'driver' => 'neato',
         'tube' => $obj,
 );
 
