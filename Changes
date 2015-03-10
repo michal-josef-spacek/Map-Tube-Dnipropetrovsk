@@ -4,6 +4,7 @@
  - Add Map::Tube::Plugin::Graph to SEE ALSO section in doc.
  - Add Map::Tube::Singapore to SEE ALSO section in doc.
  - Add lines to XML document.
+ - Add test of map validity.
  - Remove driver from EXAMPLE3 section in doc. neato is default driver.
  - Remove obsolete code from EXAMPLE2 section in doc.
  - Update README file.
