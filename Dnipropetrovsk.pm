@@ -195,6 +195,28 @@ For more information about Dnipropetrovsk Map, click L<here|https://en.wikipedia
 
 =end html
 
+=head1 EXAMPLE4
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Encode qw(encode_utf8);
+ use Map::Tube::Dnipropetrovsk;
+
+ # Object.
+ my $obj = Map::Tube::Dnipropetrovsk->new;
+
+ # Get lines.
+ my $lines_ar = $obj->get_lines;
+
+ # Print out.
+ map { print encode_utf8($_->name)."\n"; } sort @{$lines_ar};
+
+ # Output:
+ # Центрально-Заводська лінія
+
 =head1 DEPENDENCIES
 
 L<File::Share>,
