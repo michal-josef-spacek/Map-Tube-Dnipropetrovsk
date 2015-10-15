@@ -1,5 +1,6 @@
 0.05
  - Add EXAMPLE4 to doc.
+ - Update to Map::Tube 3.06.
 
 0.04 2015-10-03T12:28:34+02:00
  - Add get_line_by_id() and get_line_by_name() methods to doc.
