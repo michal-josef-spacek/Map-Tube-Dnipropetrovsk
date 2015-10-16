@@ -1,4 +1,5 @@
 0.06
+ - Improve description for get_lines() in doc.
 
 0.05 2015-10-15T23:29:54+02:00
  - Add EXAMPLE4 to doc.
