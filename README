@@ -68,11 +68,9 @@ METHODS
              Returns string with XML.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(decode_utf8 encode_utf8);
      use Map::Tube::Dnipropetrovsk;
 
@@ -89,11 +87,9 @@ EXAMPLE1
      # Route: Комунарівська (Центрально-Заводська лінія), Проспект Свободи (Центрально-Заводська лінія), Заводська (Центрально-Заводська лінія), Металургів (Центрально-Заводська лінія)
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Map::Tube::Dnipropetrovsk;
 
      # Object.
@@ -109,11 +105,9 @@ EXAMPLE2
      # XML file: .*/dnipropetrovsk-map.xml
 
 EXAMPLE3
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Map::Tube::GraphViz;
      use Map::Tube::GraphViz::Utils qw(node_color_without_label);
      use Map::Tube::Dnipropetrovsk;
@@ -137,11 +131,9 @@ EXAMPLE3
      # -rw-r--r-- 1 skim skim 16544 Jan  1 11:17 Dnipropetrovsk.png
 
 EXAMPLE4
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Map::Tube::Dnipropetrovsk;
 
@@ -158,11 +150,9 @@ EXAMPLE4
      # Центрально-Заводська лінія
 
 EXAMPLE5
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(decode_utf8 encode_utf8);
      use Map::Tube::Dnipropetrovsk;
 
