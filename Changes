@@ -1,4 +1,4 @@
-0.06
+0.06 2020-01-18T11:45:09+01:00
  - Add EXAMPLE5 section to doc.
  - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Implement station order.
