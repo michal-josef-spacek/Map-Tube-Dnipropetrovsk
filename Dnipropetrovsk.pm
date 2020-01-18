@@ -36,6 +36,7 @@ Map::Tube::Dnipropetrovsk - Interface to the Dnipropetrovsk Metro Map.
 =head1 SYNOPSIS
 
  use Map::Tube::Dnipropetrovsk;
+
  my $obj = Map::Tube::Dnipropetrovsk->new;
  my $routes_ar = $obj->get_all_routes($from, $to);
  my $line = $obj->get_line_by_id($line_id);
