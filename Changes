@@ -4,6 +4,7 @@
  - Implement station order.
  - Improve description for get_lines() in doc.
  - Rewrite XML map to new version with line IDs.
+ - Update .travis.yml to reality.
  - Update Module::Install to 1.18 version.
  - Update author name.
  - Update copyright years to 2017.
