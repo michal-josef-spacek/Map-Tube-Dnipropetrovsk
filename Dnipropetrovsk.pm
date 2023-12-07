@@ -181,8 +181,8 @@ For more information about Dnipropetrovsk Map, click L<here|https://en.wikipedia
 
 =begin html
 
-<a href="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-Dnipropetrovsk/master/images/ex3.png">
-  <img src="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-Dnipropetrovsk/master/images/ex3.png" alt="Pražské metro" width="300px" height="300px" />
+<a href="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-Dnipropetrovsk/master/images/Dnipropetrovsk.png">
+  <img src="https://raw.githubusercontent.com/michal-josef-spacek/Map-Tube-Dnipropetrovsk/master/images/Dnipropetrovsk.png" alt="Pražské metro" width="300px" height="300px" />
 </a>
 
 =end html
