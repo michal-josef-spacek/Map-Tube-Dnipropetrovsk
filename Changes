@@ -1,4 +1,4 @@
-0.08
+0.08 2023-12-08T11:31:27+01:00
  - Fix HTML alt parameter in doc.
  - Fix image name in doc.
  - Fix use lib '.' in Makefile.PL.
