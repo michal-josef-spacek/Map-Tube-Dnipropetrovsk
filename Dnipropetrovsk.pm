@@ -127,13 +127,13 @@ For more information about Dnipropetrovsk Map, click L<here|https://en.wikipedia
  my $obj = Map::Tube::Dnipropetrovsk->new;
 
  # Get route.
- my $route = $obj->get_shortest_route(decode_utf8('Комунарівська'), decode_utf8('Металургів'));
+ my $route = $obj->get_shortest_route(decode_utf8('Покровська'), decode_utf8('Металургів'));
 
  # Print out type.
  print "Route: ".encode_utf8($route)."\n";
 
  # Output:
- # Route: Комунарівська (Центрально-Заводська лінія), Проспект Свободи (Центрально-Заводська лінія), Заводська (Центрально-Заводська лінія), Металургів (Центрально-Заводська лінія)
+ # Route: Покровська (Центрально-Заводська лінія), Проспект Свободи (Центрально-Заводська лінія), Заводська (Центрально-Заводська лінія), Металургів (Центрально-Заводська лінія)
 
 =head1 EXAMPLE2
 
@@ -248,7 +248,7 @@ For more information about Dnipropetrovsk Map, click L<here|https://en.wikipedia
  # Map::Tube::get_stations(): ERROR: Invalid Line Name [foo]. (status: 105) file __PROG__ on line __LINE__
 
  # Output with 'Центрально-Заводська лінія' argument.
- # Комунарівська
+ # Покровська
  # Проспект Свободи
  # Заводська
  # Металургів

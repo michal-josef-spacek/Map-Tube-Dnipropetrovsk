@@ -29,7 +29,7 @@ map { print encode_utf8($_->name)."\n"; } @{$stations_ar};
 # Map::Tube::get_stations(): ERROR: Invalid Line Name [foo]. (status: 105) file __PROG__ on line __LINE__
 
 # Output with 'Центрально-Заводська лінія' argument.
-# Комунарівська
+# Покровська
 # Проспект Свободи
 # Заводська
 # Металургів
