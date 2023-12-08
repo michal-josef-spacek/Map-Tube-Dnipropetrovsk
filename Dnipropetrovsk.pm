@@ -115,6 +115,8 @@ For more information about Dnipropetrovsk Map, click L<here|https://en.wikipedia
 
 =head1 EXAMPLE1
 
+=for comment filename=print_dnipropetrovsk_route.pl
+
  use strict;
  use warnings;
 
@@ -135,6 +137,8 @@ For more information about Dnipropetrovsk Map, click L<here|https://en.wikipedia
 
 =head1 EXAMPLE2
 
+=for comment filename=print_dnipropetrovsk_def_xml_file.pl
+
  use strict;
  use warnings;
 
@@ -153,6 +157,8 @@ For more information about Dnipropetrovsk Map, click L<here|https://en.wikipedia
  # XML file: .*/dnipropetrovsk-map.xml
 
 =head1 EXAMPLE3
+
+=for comment filename=print_dnipropetrovsk_image.pl
 
  use strict;
  use warnings;
@@ -189,6 +195,8 @@ For more information about Dnipropetrovsk Map, click L<here|https://en.wikipedia
 
 =head1 EXAMPLE4
 
+=for comment filename=print_dnipropetrovsk_lines.pl
+
  use strict;
  use warnings;
 
@@ -208,6 +216,8 @@ For more information about Dnipropetrovsk Map, click L<here|https://en.wikipedia
  # Центрально-Заводська лінія
 
 =head1 EXAMPLE5
+
+=for comment filename=print_dnipropetrovsk_line_stations.pl
 
  use strict;
  use warnings;
